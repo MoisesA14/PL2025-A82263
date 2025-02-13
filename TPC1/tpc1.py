@@ -22,6 +22,6 @@ def soma_on_off(input_file : str) -> None:
             total += int(texto[i])
         i += 1
 
-if __name__ == "__main__":
+if __name__ == "__tpc1__":
     input_file = sys.argv[1]
     soma_on_off(input_file)
