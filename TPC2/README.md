@@ -16,5 +16,12 @@ Pretende-se um programa que leia e processe o dado dataset e crie os seguintes r
 
 ## Solução
 
+Criar um programa que identifica e separa strings correspondentes ao campo que se pretende para cada resultado específico dos restantes campos baseado na sua posição na linha relativa a uma dada obra (neste caso, para cada obra, o primeiro campo corresponde ao nome, o segundo à descrição e assim sucessivamente conforme o primeira linha do ficheiro dataset). Essas strings depois formarão as listas e os dicionários pretendidos. Cada campo está separado do seguinte por ';', exceto o último de cada linha (_id), que deverá estar seguido de '\n', para causar a mudança de linha entre obras.
+
 ## Execução
 
+O programa é executado no terminal. 
+
+```
+$ py tpc2.py
+```
